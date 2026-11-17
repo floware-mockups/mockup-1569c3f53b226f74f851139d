@@ -1,0 +1,219 @@
+{
+  "title": "Gestione dei corsi di formazione",
+  "description": "Catalogo interno per consultare i corsi, verificare docenti e disponibilità e inserire nuove sessioni. Tutti i dati sono di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi in programma e dei posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni in programma",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "46"
+        },
+        {
+          "label": "Iscritti",
+          "value": "74"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "12/06/2026",
+          "6"
+        ],
+        [
+          "Fogli di calcolo essenziali",
+          "Vela Neri",
+          "18/06/2026",
+          "9"
+        ],
+        [
+          "Gestione del tempo",
+          "Nubi Sarti",
+          "24/06/2026",
+          "4"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Lumo Brina",
+          "02/07/2026",
+          "8"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra corsi e sessioni per titolo, docente, data e disponibilità.",
+      "metrics": [
+        {
+          "label": "Corsi elencati",
+          "value": "12"
+        },
+        {
+          "label": "Posti totali disponibili",
+          "value": "46"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "12/06/2026",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Fogli di calcolo essenziali",
+          "Vela Neri",
+          "18/06/2026",
+          "9",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione del tempo",
+          "Nubi Sarti",
+          "24/06/2026",
+          "4",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Lumo Brina",
+          "02/07/2026",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Introduzione ai dati",
+          "Vela Quarzo",
+          "09/07/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Organizzare riunioni efficaci",
+          "Nubi Riva",
+          "16/07/2026",
+          "5",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Documenti condivisi",
+          "Lumo Neri",
+          "23/07/2026",
+          "7",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Presentazioni sintetiche",
+          "Vela Sarti",
+          "30/07/2026",
+          "3",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-sessione",
+      "title": "Aggiungi sessione",
+      "description": "Registra una nuova sessione formativa nel catalogo.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "docenti",
+      "title": "Docenti",
+      "description": "Elenco dei docenti e dei corsi assegnati.",
+      "metrics": [
+        {
+          "label": "Docenti attivi",
+          "value": "5"
+        },
+        {
+          "label": "Corsi assegnati",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Docente",
+        "Specialità",
+        "Corsi assegnati",
+        "Prossima sessione"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "Scrittura e documenti",
+          "3",
+          "12/06/2026"
+        ],
+        [
+          "Vela Neri",
+          "Strumenti digitali",
+          "3",
+          "18/06/2026"
+        ],
+        [
+          "Nubi Sarti",
+          "Organizzazione",
+          "2",
+          "24/06/2026"
+        ],
+        [
+          "Lumo Brina",
+          "Comunicazione",
+          "2",
+          "02/07/2026"
+        ],
+        [
+          "Vela Quarzo",
+          "Dati e analisi",
+          "2",
+          "09/07/2026"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
